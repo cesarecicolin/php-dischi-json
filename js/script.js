@@ -4,7 +4,7 @@ createApp({
   data() {
     return {
       message: 'Ciao Vue!',
-      dischiList: [],
+      DischiList: [],
       apiUrl: "server.php",
       
     }
@@ -13,7 +13,7 @@ createApp({
     axios.get(this.apiUrl)
     .then((resp) => 
     {
-    this.dischiList = resp.data
+    this.DischiList = resp.data
     })
   },
  

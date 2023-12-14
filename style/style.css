@@ -1,0 +1,11 @@
+*{color: white;}
+
+main{
+    width: 100%;
+    height: 100vh;
+    background-color: blue;
+}
+
+.my-bg{
+    background-color: darkblue;
+}
